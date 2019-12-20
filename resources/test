@@ -1,0 +1,49 @@
+
+
+
+
+load("C:\\product\\01_input\\plan_sum_2017pred22")
+load("C:\\product\\01_input\\plan_sum_2018pred22")
+nrow(plan_sum_2017pred22)
+nrow(plan_sum_2018pred22)
+obj <- rbind(plan_sum_2017pred22,plan_sum_2018pred22)
+
+packages <- c()
+packages <- c("purrr", "dplyr", "data.table", "knitr", "stringr", "ggplot2", "grid", "tidyverse")
+purrr::walk(packages, library, character.only = TRUE, warn.conflicts = FALSE)
+
+
+
+OKパッケージ
+package.stats
+package.graphics
+package.grDevices
+package.utils
+package.datasets
+package.methods
+package.base
+
+NGパッケージ
+package.forcats
+package.readr
+package.tidyr
+package.tibble
+package.tidyverse
+package.grid
+package.ggplot2
+package.stringr
+package.knitr
+package.data.table
+package.dplyr
+package.purrr
+package.stats
+package.graphics
+package.grDevices
+package.utils
+package.datasets
+package.methods
+package.base
+
+
+
+
